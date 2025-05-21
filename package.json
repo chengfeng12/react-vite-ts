@@ -12,8 +12,12 @@
     "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
   "dependencies": {
+    "axios": "^1.9.0",
+    "gsap": "^3.13.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "vite-plugin-mock": "^3.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
@@ -22,6 +26,9 @@
     "@types/react-dom": "^18.2.15",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
+    "@unocss/postcss": "^66.1.2",
+    "@unocss/preset-attributify": "^66.1.2",
+    "@unocss/preset-uno": "^66.1.2",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
@@ -33,6 +40,7 @@
     "lint-staged": "^15.1.0",
     "prettier": "^3.1.0",
     "typescript": "^5.2.2",
+    "unocss": "^66.1.2",
     "vite": "^5.0.0"
   },
   "husky": {
